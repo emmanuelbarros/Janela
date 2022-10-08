@@ -1,0 +1,62 @@
+
+<AnchorLayout>
+
+    canvas.before:
+        Rectangle:
+            pos: self.pos
+            size: self.size
+            source: 'images/post.jpg'
+
+
+    anchor_x: 'center'
+    anchor_y: 'top'
+    BoxLayout:
+        orientation: 'vertical'
+        size_hint:.4,.5
+
+        Button:
+            text:'Janeiro'
+            on_press: print("Nota mês janeiro aberto")
+
+        Button:
+            text:'Fevereiro'
+            on_press: print("Nota mês fevereiro aberto")
+        Button:
+            text:'Março'
+            on_press: print("Nota mês março aberto")
+
+        Button:
+            text:'Abril'
+            on_press: print("Nota mês Abril aberto")
+        Button:
+            text:'Maio'
+            on_press: print("Nota mês maio aberto")
+
+        Button:
+            text:'Junho'
+            on_press: print("Nota mês junho aberto")
+
+
+        Button:
+            text:'Julho'
+            on_press: print("Nota mês julho aberto")
+
+        Button:
+            text:'Agosto'
+            on_press: print("Nota mês Agosto aberto")
+        Button:
+            text:'Setembro'
+            on_press: print("Nota mês Setembro aberto")
+
+        Button:
+            text:'Outubro'
+            on_press: print("Nota mês Outubro aberto")
+
+        Button:
+            text:'+'
+            on_press: print("Adicionar novo mês antecipado")
+
+
+
+
+
