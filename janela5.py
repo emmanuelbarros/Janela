@@ -28,7 +28,7 @@ class JanelaApp(App):
 
         SL = StackLayout(orientation='tb-lr')
 
-        AL = AnchorLayout()
+        ALT = AnchorLayout()
 
         btn1 = Button(text="2019",
                       font_size=20,
@@ -81,7 +81,7 @@ class JanelaApp(App):
         SL.add_widget(btn8)
         SL.add_widget(btn9)
         SL.add_widget(btn10)
-        SL.add_widget(AL)
+        SL.add_widget(ALT)
 
         return SL
 
